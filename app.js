@@ -1,7 +1,7 @@
 const express = require('express')
 const path = require('path') // para lidarmos com a configuração do nosso template ejs
 const app = express() // iniciando nosso servidor 
-const port = process.env.PORT || 3350
+const port = process.env.PORT || 3355
 
 //DB connection
 const model = require('./models/index')
